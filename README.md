@@ -6,4 +6,4 @@ Play as an adventurer on a quest to save the village of the valley. Make your wa
 ### About the game
 An early project of mine to create a game using object-oriented programming with C++.
 
-To play, clone this repository and run `make` followed by `./play`. Once you're all done, to clean up binary files, run `make clean`.
+Requires a gcc compoiler with C++11. To change version of C++, modify line 2 of Makefile (the game should work on more current versions). To play, clone this repository and run `make` followed by `./play`. Once you're all done, to clean up binary files, run `make clean`.
