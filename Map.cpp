@@ -75,6 +75,8 @@ bool Map::canMove(int direction){
             if (longitude - 1 < 0) return false;
             if (terrain[latitude][longitude - 1] == "w" || terrain[latitude][longitude - 1] == "^" ) return false;
             return true;
+        default :
+            return false;
         
     }
     
